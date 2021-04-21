@@ -1,0 +1,3 @@
+git_url "git@github.com:Emurgo/yoroi-certs.git"
+
+type "appstore" # The default type, can be: appstore, adhoc, enterprise or development
