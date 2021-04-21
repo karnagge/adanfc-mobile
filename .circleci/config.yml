@@ -95,6 +95,7 @@ jobs:
       - run: cargo install cargo-lipo
       - run: export
       - run: cargo
+      - run: chmod -Rfv a+wrx .
       - restore_cache:
           key: jars-{{ checksum "build.gradle" }}-{{ checksum  "app/build.gradle" }}
       - run:
