@@ -122,8 +122,8 @@ workflows:
       - test:
           requires:
             - install-dependencies
-#      - android:
-#          requires:
-#            - install-dependencies
-#            - lint
-#            - flow
+      - android:
+          requires:
+            - install-dependencies
+            - lint
+            - flow
