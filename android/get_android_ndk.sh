@@ -13,7 +13,7 @@ if [ ! -e $ANDROID_NDK ]; then
   echo "Downloading NDK..."
   sudo curl -L -o ndk.zip https://dl.google.com/android/repository/android-ndk-r20-linux-x86_64.zip
   sudo unzip -o -q ndk.zip
-  sudo mv android-ndk-r17b ndk-bundle
+  sudo mv android-ndk-r20 ndk-bundle
 
   echo "Installed Android NDK at $ANDROID_NDK"
 
